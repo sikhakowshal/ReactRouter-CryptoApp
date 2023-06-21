@@ -1,0 +1,41 @@
+.crypto-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  margin-top: 10px;
+  padding-right: 40px;
+  height: 50px;
+}
+
+.currency-name-container {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  flex-grow: 1;
+}
+
+.currency-logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.item-text {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.usd-value {
+  width: 20%;
+  text-align: right;
+}
+
+.euro-value {
+  width: 20%;
+  text-align: right;
+}
